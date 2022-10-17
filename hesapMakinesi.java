@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
-// Compiler version JDK 11.0.2
-
-class Dcoder
+public class hesapMakinesi
 {
     public static void main(String args[])
     {
