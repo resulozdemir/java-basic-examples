@@ -13,7 +13,6 @@ public class sayiyaKadarOlanCiftSayilar {
             if (i % 3 == 0 || i % 4 == 0) {
                 sum += i;
                 count++;
-                //System.out.print(i + ",");
             }
             i++;
         }
