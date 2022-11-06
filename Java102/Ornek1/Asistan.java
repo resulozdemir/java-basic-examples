@@ -1,6 +1,8 @@
-package Java102;
+package Java102.Ornek1;
 
-public class Asistan extends Akademisyen{
+import Java102.Ornek1.Akademisyen;
+
+public class Asistan extends Akademisyen {
     private String ofisSaati;
 
     public Asistan(String adSoyad,String telefon,String eposta,String bolum,String unvan,String ofisSaati){
@@ -18,5 +20,10 @@ public class Asistan extends Akademisyen{
 
     public void quizYap(){
         System.out.println(this.getAdSoyad() + " quiz yaptı !");
+    }
+
+    @Override
+    public void derseGir(String saat){
+        System.out.println(this.getAdSoyad() + "ogretim gorevlisi derse" + saat + "giris yaptı");
     }
 }

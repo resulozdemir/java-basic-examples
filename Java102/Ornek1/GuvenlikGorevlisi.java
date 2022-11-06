@@ -1,6 +1,6 @@
-package Java102;
+package Java102.Ornek1;
 
-public class GuvenlikGorevlisi extends Memur{
+public class GuvenlikGorevlisi extends Memur {
     private String bolge;
 
     public GuvenlikGorevlisi(String adSoyad, String telefon, String eposta, String departman, String mesai, String bolge) {

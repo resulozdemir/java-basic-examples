@@ -1,6 +1,8 @@
-package Java102;
+package Java102.Ornek1;
 
-public class Memur extends Calisan{
+import Java102.Ornek1.Calisan;
+
+public class Memur extends Calisan {
     private String departman;
     private String mesai;
 

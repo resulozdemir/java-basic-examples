@@ -1,6 +1,6 @@
-package Java102;
+package Java102.Ornek1;
 
-public class Akademisyen extends Calisan{
+public abstract class Akademisyen extends Calisan {
 
     private String bolum;
     private String unvan;
@@ -26,7 +26,10 @@ public class Akademisyen extends Calisan{
         this.unvan = unvan;
     }
 
-    public void derseGir(){
-        System.out.println(this.getAdSoyad() + " derse girdi !");
+    public abstract void derseGir(String dersSaati);
+
+    @Override      //override metot bu sekilde belirtilmeli ki daha sonradan rahatca alabilabilsin
+    public void giris(){
+        System.out.println(this.getAdSoyad() + " akademisyen A kapisindan giris yapti !");
     }
 }
