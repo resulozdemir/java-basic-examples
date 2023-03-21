@@ -1,2 +1,5 @@
-package Java102.MaceraOyunu;public class Forest {
+package Java102.MaceraOyunu;
+
+public class Forest extends BattleLoc{
+
 }

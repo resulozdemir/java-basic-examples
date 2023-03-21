@@ -35,7 +35,7 @@ public class DeseneGoreMetot {
         System.out.print("N Sayısı : ");
         int sayi = scanner.nextInt();
 
-        System.out.println(pattern(sayi));
+        System.out.println(desen(sayi));
     }
 
 }

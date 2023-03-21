@@ -4,12 +4,15 @@ import java.util.*;
 public class DizideFrekansBulma {
     public static void main(String[] args) {
         Random r = new Random();
+
         int[] dizi = new int[10];
         int[] control = new int[dizi.length];
+
         for (int i = 0; i < dizi.length; i++)
             dizi[i]=r.nextInt(11);
         System.out.println(Arrays.toString(dizi));
         int c,kontrol=0;
+
         for (int i = 0; i < dizi.length; i++)
         {
             c = 1;
