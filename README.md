@@ -1,2 +1,2 @@
 # Java
-Notes from Engin Demiroğlu's education and Patika.dev
+Notes from Engin Demiroğ's education and Patika.dev
