@@ -1,38 +1,41 @@
-# Java Basic Examples 👋
+# Java Basic Examples ☕️📚
 
-A collection of Java example projects and exercises from Patika.dev to help you learn core Java concepts.
+Exercises from the **Kodluyoruz Java 101 / 102** curricula plus extra practice tasks.  Ideal for anyone revisiting Java fundamentals before moving to advanced topics.
 
-## What It Does
-- 💻 Demonstrates basic syntax: variables, control flow (`if`, `switch`, loops)
-- 🧩 Shows object-oriented programming with classes, inheritance, and interfaces
-- 📂 Organizes examples under folders:
-  - `Java101` (basics and data types)
-  - `Java102` (collections and generics)
-  - `hazirlik` (setup and environment exercises)
-- 🛠️ Includes project structure for running in Eclipse/IntelliJ or via CLI
+---
 
-## Getting Started
+## Repository Layout
 
-### Prerequisites
-- Java JDK 8 or later installed
-- Apache Maven or your preferred build tool (optional)
+| Folder | Scope |
+|--------|-------|
+| `Java101/` | Core syntax, operators, loops, methods, simple algorithms |
+| `Java102/` | Object-oriented programming, inheritance, interfaces, small OOP games |
+| `hazirlik/` | Misc preparation files & algorithm notes |
 
-### Installation
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/resulozdemir/java-basic-examples.git
-   ```
-2. Navigate into the project folder:
-   ```bash
-   cd java-basic-examples
-   ```
+Inside each folder every `.java` file has its own `public static void main` so it can be compiled and run independently. 📄
 
-### Usage
+---
 
-- **In IDE:**
-  - Open the folder in Eclipse or IntelliJ IDEA
-  - Run the `main` method in any example class
+## Compile & Run
 
+With JDK 11+ installed:
+```bash
+javac Java101/hesapMakinesi.java -d out
+java -cp out hesapMakinesi
+```
+Or simply open the project in **IntelliJ IDEA** / **VS Code** and run the desired class.
 
-## Contact & License
-- 📫 Author: Resul ÖZDEMİR — [resulozddemir@gmail.com](mailto:resulozddemir@gmail.com)
+---
+
+## Sample Highlights ✨
+
+* **Mayın Tarlası** – Text-mode Minesweeper clone
+* **Hesap Makinesi** – Basic calculator with operator selection
+* **Macera Oyunu** – Console adventure game demonstrating inheritance & combat logic
+* **Sayı Tahmin Oyunu** – Random number guessing mini-game
+
+---
+
+## License
+
+MIT
